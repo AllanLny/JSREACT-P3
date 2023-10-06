@@ -157,6 +157,9 @@ h4 {
 .Restaurants > a {
   text-decoration: none;
 }
+.restaurant-card-a {
+  z-index: 1;
+}
 .restaurant-card {
   margin-left: auto;
   margin-right: auto;
@@ -174,6 +177,7 @@ h4 {
   object-fit: cover;
 }
 .card-txt-restaurant {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -200,17 +204,20 @@ p {
 }
 .fa-regular.fa-heart {
   position: absolute;
-  right: 10%;
-  bottom: ;
-  color: #000000;
+  right: 5%;
+  top: 60%;
+  z-index: 3;
   font-weight: 10px;
 }
-.fa-regular.fa-heart:active {
-  color: linear-gradient(
-    0deg,
-    rgba(147, 86, 220, 1) 0%,
-    rgba(255, 121, 218, 1) 100%
-  );
+.fa-regular.fa-heart:hover {
+  position: absolute;
+  right: 5%;
+  top: 60%;
+  z-index: 3;
+  color: #ac5edb;
+
+  font-weight: 10px;
+  font-weight: bold;
 }
 
 /******  Footer *******/
