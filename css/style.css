@@ -107,18 +107,29 @@ h2 {
   padding-top: 45px;
   gap: 50px;
 }
-
-.fonctionnement-texte {
-  display: flex;
+.numero-fonctionnement {
+  position: absolute;
+  left: -15px;
+  font-family: Roboto;
+  background-color: #9060d5;
+  padding: 6px;
+  padding-left: 11px;
+  padding-right: 11px;
   border-radius: 25px;
+  color: #ffffff;
+}
+.fonctionnement-texte {
+  position: relative;
+  display: flex;
+  width: 60%;
+  border-radius: 25px;
+  gap: 8%;
   padding: 30px;
-  gap: 30px;
-  padding-left: 60px;
-  padding-right: 60px;
   background-color: #f6f6f6;
   box-shadow: 0px 9px 20px 1px rgba(0, 0, 0, 0.2);
   align-items: center;
 }
+
 h4 {
   font-family: Roboto;
   font-style: 400;
