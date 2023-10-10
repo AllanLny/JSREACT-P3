@@ -70,6 +70,11 @@ header a {
   padding-left: 1%;
   padding-right: 1%;
 }
+
+.fa-regular.fa-heart:hover {
+  color: #ac5edb;
+  font-weight: bold;
+}
 h1 {
   font-family: Shrikhand;
   font-size: 28px;
