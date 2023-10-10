@@ -176,6 +176,9 @@ h4 {
   padding-bottom: 25px;
   border-radius: 25px;
 }
+.restaurant-card:active {
+  color: #000000;
+}
 .restaurant-card img {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
@@ -196,6 +199,7 @@ h4 {
   display: flex;
   flex-direction: column;
 }
+
 .Title-Restaurant {
   margin-bottom: 25px;
 }
@@ -217,7 +221,9 @@ p {
   right: 5%;
   top: 60%;
   z-index: 3;
+  color: #000000;
 }
+
 .fa-regular.fa-heart:hover {
   position: absolute;
   right: 5%;

@@ -1,0 +1,9 @@
+footer {
+  margin-top: 1275px;
+}
+
+@media (min-width: 768px) {
+  footer {
+    margin-top: 1272px;
+  }
+}
