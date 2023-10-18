@@ -292,7 +292,10 @@ p {
   filter: invert(100%);
   padding-bottom: 20px;
 }
-
+.AllTexteFooter a {
+  text-decoration: none;
+  color: #ffffff;
+}
 /******  Responsive Desktop *******/
 
 @media (min-width: 768px) {
