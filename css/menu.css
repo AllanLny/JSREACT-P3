@@ -332,9 +332,3 @@ h3 {
     transform: scale(1);
   }
 }
-
-@keyframes rotate {
-  100% {
-    rotate: 360deg;
-  }
-}
