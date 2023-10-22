@@ -109,11 +109,11 @@ h2 {
 }
 .MenuPlats {
   animation-duration: 1200ms;
-  animation-name: Slide2;
+  animation-name: Slide1;
 }
 .MenuDessert {
   animation-duration: 1700ms;
-  animation-name: Slide3;
+  animation-name: Slide1;
 }
 .plat-container {
   display: flex;
@@ -305,25 +305,6 @@ h3 {
 }
 
 @keyframes Slide1 {
-  from {
-    transform: scale(0);
-  }
-
-  to {
-    transform: scale(1);
-  }
-}
-@keyframes Slide2 {
-  from {
-    transform: scale(0);
-  }
-
-  to {
-    transform: scale(1);
-  }
-}
-
-@keyframes Slide3 {
   from {
     transform: scale(0);
   }
