@@ -11,14 +11,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: fadeout ease-in-out 2.8s;
-  animation-fill-mode: forwards;
-}
-.loader {
-  display: flex;
-  animation: rotate 1.5s infinite;
+  animation: fadeout 2.8s ease-in-out forwards;
+  animation-iteration-count: 1; /* Assurez-vous que cette animation ne se répète qu'une fois */
 }
 
+.loader {
+  display: flex;
+  animation: rotate 1.5s linear infinite; /* Répétée à l'infini, mais peut être conditionnée */
+}
 /****** Header *******/
 header {
   display: flex;
