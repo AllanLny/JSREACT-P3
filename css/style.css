@@ -13,6 +13,7 @@
   align-items: center;
   animation: fadeout 2.8s ease-in-out forwards;
   animation-iteration-count: 1; /* Assurez-vous que cette animation ne se répète qu'une fois */
+  pointer-events: none;
 }
 
 .loader {
